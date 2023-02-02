@@ -29,7 +29,6 @@ def run_search():
     value = (min(rent_gtn_list), max(rent_gtn_list)))
 
     # 월세 범위 설정
-    input = st.sidebar.number_input('월세 범위', 1, 50000)
     rent_fee_list = data['RENT_FEE'].values.tolist()
     rent_fee_select = st.sidebar.select_slider('월세(만단위)', 
     options = np.arange(0, max(rent_fee_list)+1),

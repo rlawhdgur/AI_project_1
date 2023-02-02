@@ -11,7 +11,7 @@ from predict import run_predict
 from suggestions import run_suggestions
 
 
-st.title('🏘️내 방, 어디👀?')
+st.title('내 방, 어디?')
 
 selected3 = option_menu(None, ["🏠Home", "🔎전월세 검색", "📊전세 예측?",
  '💬건의사항'], 
